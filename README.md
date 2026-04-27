@@ -1,8 +1,8 @@
 # Analyzing the COVID-19 trends
 This project analyzed the COVID-19 dataset from March 2020 to April 2021.
-Data sources: World Health Organization (2026); Population based on various sources (2024) – with minor processing by Our World in Data
+Data sources: World Health Organization (2026); Population based on various sources (2024) – with minor processing by Our World in Data.
 From the data source, AlexTheAnalyst created two tables that I used for my project: CovidDeaths and CovidVaccinations. 
-Tools used: Microsoft SQL Express, Excel, and Tableau
+Tools used: Microsoft SQL Express, Excel, and Tableau.
 ## Data Exploratory with SQL
 1. Total Cases vs Total Deaths: Shows the likelihood of dying if a person contracted COVID in Malaysia
 2. Total Cases vs Population: Shows what percentage of the population contracted COVID
