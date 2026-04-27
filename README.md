@@ -13,3 +13,5 @@ Tools used: Microsoft SQL Express, Excel, and Tableau
 1. Global Numbers for COVID Cases, Death Count, and Death Percentage
 2. Total Death Count per Continent
 3. Percent Population Infected per Country
+## Tableau Dashboard
+[https://public.tableau.com/app/profile/ibtisam.ishak/viz/Covid-19Dashboard2020-2021_17772640145900/Dashboard]
