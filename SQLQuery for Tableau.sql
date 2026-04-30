@@ -3,16 +3,16 @@
 -- 1.
 
 SELECT SUM(new_cases) as total_cases, SUM(CAST(new_deaths as int)) as total_deaths
-, SUM(CAST(new_deaths as int))/SUM(new_cases)*100 as death_percentage
+, SUM(CAST(new_deaths as int))/SUM(new_cases)*100 as mortality_rate
 FROM portfolio_project..covid_deaths
 WHERE continent is not null
 ORDER BY 1,2
 
---Double check the data provided.
+--Double-check the data provided.
 --Compare the numbers with the data that has no country specifications
 
 --SELECT SUM(new_cases) as total_cases, SUM(CAST(new_deaths as int)) as total_deaths
---, SUM(CAST(new_deaths as int))/SUM(new_cases) as death_percentage
+--, SUM(CAST(new_deaths as int))/SUM(new_cases) as mortality_rate
 --FROM portfolio_project..covid_deaths
 --WHERE location = 'World'
 --ORDER BY 1,2
